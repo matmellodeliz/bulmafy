@@ -32,7 +32,7 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">
+        <a class="navbar-item" href="#">
           Home
         </a>
 
@@ -43,14 +43,14 @@
           </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item">
+            <a class="navbar-item" href="sobre.html">
               Sobre
             </a>
-            <a class="navbar-item">
+            <a class="navbar-item" href="contatos.html">
               Contatos
             </a>
             <hr class="navbar-divider">
-            <a class="navbar-item">
+            <a class="navbar-item" href="problemas.html">
               Reportar problema
             </a>
           </div>
@@ -339,10 +339,10 @@
         </div>
         <div class="field">
           <p class="control">
-            <button class="button is-success" id="login" onclick="login()">
+            <button class="button is-success" onclick="fechar()">
               Entrar
             </button>
-            <button class="button" style="margin-left: 30px;" id="login" onclick="login()">
+            <button class="button" style="margin-left: 30px;" onclick="fechar()">
               Cancelar
             </button>
           </p>
@@ -363,7 +363,7 @@
     }
   </script>
   <script>
-    function login() {
+    function fechar() {
       document.getElementById("modal-js-example").classList.remove("is-active");
     }
   </script>
